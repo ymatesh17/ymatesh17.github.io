@@ -65,7 +65,8 @@ body {
 			letter-spacing: 10px;
 		}
 		#main-top {
-			display: inline; 
+			display: inline;
+			height: 500px;			
 		}
 		#top-left{
 			float: left;
@@ -84,6 +85,12 @@ body {
 			height: 500px;
 			background-color:#f6cbbc;
 		}
+		#top-right-con {
+			float: right;
+			width: 50%;  
+			display: inline;
+			height: 500px;
+		}
 		#top-left-con p{
 			font-size: 20px;
 			line-height: 2;
@@ -92,6 +99,9 @@ body {
 		}
 		#top-left-con a:hover {
 			color: #981826;
+		}
+		#top-left-con a {
+			color: grey;
 		}
 		.bold {
 			font-weight: bold;
@@ -134,11 +144,7 @@ body {
 			width: 50%;  
 			display: inline;
 		}
-		#top-right-con {
-			float: right;
-			width: 50%;  
-			display: inline;
-		}
+		
 		
 		.home-pic {
 			width: 500px;
@@ -214,6 +220,14 @@ body {
 			margin-top: 20px;
 			text-align: center;
 			line-height: 1.5;
+			font-size: 25px;
+			letter-spacing: 1.5px;
+		}
+		#call-port a{
+			color: grey;
+		}
+		#call-port a:hover {
+			color: #ecc5a2;
 		}
 		footer {
 			text-align: center;
@@ -222,8 +236,10 @@ body {
 			padding-top: 2px;
 			padding-bottom:2px;
 			background-color: #d88081;
+		
 			
 		}
+	
 		input[type=text], select, textarea {
 		  width: 100%; /* Full width */
 		  padding: 12px; /* Some padding */  
@@ -233,7 +249,7 @@ body {
 		  margin-top: 6px; /* Add a top margin */
 		  margin-bottom: 16px; /* Bottom margin */
 		  resize: vertical;		  /* Allow the user to vertically resize the textarea (not horizontally) */
-		  color: black;
+		  color: black !important;
 		}
 
 		/* Style the submit button with a specific background color etc */
@@ -276,4 +292,7 @@ body {
 		.icon {
 			width: 30px;
 			display: inline;
+			position: relative;
+			top: 8px;
+			
 		}
