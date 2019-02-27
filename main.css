@@ -65,7 +65,7 @@ body {
 			letter-spacing: 10px;
 		}
 		#main-top {
-			display: inline;
+		
 			height: 500px;			
 		}
 		#top-left{
@@ -82,14 +82,14 @@ body {
 			display: inline;
 			width: 50%; 
 			text-align: left;
-			height: 500px;
+			height: 440px;
 			background-color:#f6cbbc;
 		}
 		#top-right-con {
 			float: right;
 			width: 50%;  
 			display: inline;
-			height: 500px;
+			height: 400px;
 		}
 		#top-left-con p{
 			font-size: 20px;
