@@ -1,5 +1,5 @@
 body {
-
+			
 			margin: 0;
 			font-family: 'Karla', sans-serif;
 			background-color: white;
@@ -15,8 +15,8 @@ body {
 			overflow: auto;
 			margin-right: 30px;
 		}
-
-
+		
+		
 		nav ul {
 			  list-style-type: none;
 			  margin: 0;
@@ -28,22 +28,22 @@ body {
 			  margin-left: 200px;
 			  border-bottom: 1px solid black;
 			  position: relative;
-
+			  
 			}
 		nav li {
 				  display: inline;
-
+				  
 				}
 		nav li a {
 			padding: 20px;
-			text-decoration: none;
+			text-decoration: none; 
 			font-size: 30px;
 			font-weight: bold;
 			text-transform: uppercase;
 			color: grey;
 			letter-spacing:3px;
-
-
+			
+			
 		}
 		nav li a.active {
 			color: #eec03a;
@@ -54,40 +54,40 @@ body {
 
 		main {
 			padding-left: 20px;
-			padding-right: 20px;
+			padding-right: 20px; 
 			margin-top: 100px;
-
-
+			
+			
 		}
 		h1 {
-			text-align: center;
+			text-align: center; 
 			text-transform: uppercase;
 			letter-spacing: 10px;
 		}
 		#main-top {
-
-			height: 445px;
+		
+			height: 500px;			
 		}
 		#top-left{
 			float: left;
 			display: inline;
-			width: 50%;
+			width: 50%; 
 			text-align: left;
 			height: 500px;
 			background-color: #d88081;
-
+			
 		}
 		#top-left-con {
 			float: left;
 			display: inline;
-			width: 50%;
+			width: 50%; 
 			text-align: left;
 			height: 440px;
 			background-color:#f6cbbc;
 		}
 		#top-right-con {
 			float: right;
-			width: 50%;
+			width: 50%;  
 			display: inline;
 			height: 440px;
 		}
@@ -95,7 +95,7 @@ body {
 			font-size: 20px;
 			line-height: 2;
 			margin-left: 20px;
-
+			
 		}
 		#top-left-con a:hover {
 			color: #981826;
@@ -115,7 +115,7 @@ body {
 		#call-main {
 			margin-bottom: 50px;
 			margin-right: 30px;
-			float: right;
+			float: right; 
 		}
 		#call-home {
 			white-space: nowrap;
@@ -130,7 +130,7 @@ body {
 			    font-size: 13px;
 				font-weight: 700;
 				letter-spacing: 1.86px;
-				  padding: 15px 25px;
+				  padding: 15px 25px; 
 		}
 		#call-home:hover {
 			background: lightblue;
@@ -141,14 +141,14 @@ body {
 		}
 		#top-right{
 			float: right;
-			width: 50%;
+			width: 50%;  
 			display: inline;
 		}
-
-
+		
+		
 		.home-pic {
 			width: 500px;
-			padding-left: 100px;
+			padding-left: 100px; 
 		}
 		#main-bottom {
 			display: inline-block;
@@ -156,8 +156,8 @@ body {
 			margin-bottom: 40px;
 			width: 100%;
 			text-align: center;
-
-		}
+			
+		} 
 		#main-bottom a:hover {
 			opacity: 0.5;
 		}
@@ -169,13 +169,13 @@ body {
 		#main-bottom h2 {
 			text-align: center;
 			letter-spacing: 2.0px;
-
-
+			
+			
 		}
 		figure {
-			display: inline-block;
-
-
+			display: inline-block; 
+			 
+			
 		}
 		figcaption {
 				margin: 10px 0 0 0;
@@ -185,11 +185,11 @@ body {
 				font-size: 25px;
 			}
 		#projects-pic {
-
+			
 			margin-right: 60px;
 		}
 		#blog-pic {
-			margin-left: 60px;
+			margin-left: 60px; 
 		}
 		#box {
 			background-color: #f6cbbc;
@@ -236,13 +236,13 @@ body {
 			padding-top: 2px;
 			padding-bottom:2px;
 			background-color: #d88081;
-
-
+		
+			
 		}
-
+	
 		input[type=text], select, textarea {
 		  width: 100%; /* Full width */
-		  padding: 12px; /* Some padding */
+		  padding: 12px; /* Some padding */  
 		  border: 1px solid #ccc; /* Gray border */
 		   /* Rounded borders */
 		  box-sizing: border-box; /* Make sure that padding and width stays in place */
@@ -270,7 +270,7 @@ body {
 
 		/* Add a background color and some padding around the form */
 		.contact-form {
-
+		  
 		  background-color: #ecc5a2;
 		  padding: 20px;
 		}
@@ -285,7 +285,7 @@ body {
 			font-weight: 700;
 			font-style: normal;
 		}
-
+		
 		.contact-pic {
 			width: 100%;
 		}
@@ -294,5 +294,65 @@ body {
 			display: inline;
 			position: relative;
 			top: 8px;
-
+			
+		}
+		/*About Page*/
+		#top-left-ab {
+			float: left;
+			display: inline;
+			width: 50%; 
+			text-align: left;
+			
+			background-color: #f6cbbc;
+		}
+		#abt-pic1 {
+			width: 500px;
+			margin-left: 30px;	
+			margin-top: 30px;
+		}
+		#abt-pic2 {
+			width: 500px;
+			margin-left: 115px;	
+			margin-bottom: 29px;
+		}
+		#top-right-ab {
+			float: right;
+			display: inline;
+			width: 50%; 
+			text-align: left;
+			
+			background-color: #f6cbbc;
+		}
+		#top-left-ab  p {
+			font-size: 22px;
+			text-align: left;
+			line-height: 2;
+			margin-left: 30px;
+			font-style: italic;
+		}
+		#top-right-ab  p {
+			font-size: 25px;
+			text-align: left;
+			line-height: 2;
+		}
+		#top-right-ab  li {
+			font-size: 25px;
+			text-align: left;
+			line-height: 2;
+		}
+		#top-right-ab ul{
+		margin-bottom: 50px;
+		margin-right: 20px;
+		}
+		#call-abt {
+			text-align: right;
+			font-size: 20px;
+			font-weight: 700;
+			letter-spacing: 1.86px;
+			margin-right: 70px;
+			margin-bottom: 100px;
+			text-transform: uppercase;
+		}
+		#call-abt a:hover{
+			color: #981826;
 		}
